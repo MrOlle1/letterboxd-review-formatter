@@ -1,0 +1,70 @@
+/* Letterboxd Review Formatter - toolbar.css */
+
+.lbf-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 5px 6px;
+  background: #2c3440;
+  border: 1px solid #445566;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "Source Sans Pro", "Graphik", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.lbf-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 26px;
+  padding: 0 6px;
+  background: #3c4755;
+  border: 1px solid #536070;
+  border-radius: 3px;
+  color: #c8d0da;
+  font-size: 12px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  box-shadow: none;
+  outline: none;
+  user-select: none;
+}
+
+.lbf-btn:hover {
+  background: #4a5568;
+  border-color: #7a8fa6;
+  color: #ffffff;
+}
+
+.lbf-btn:active {
+  background: #00c030;
+  border-color: #00a828;
+  color: #ffffff;
+  transform: scale(0.96);
+}
+
+.lbf-btn svg {
+  display: block;
+  flex-shrink: 0;
+}
+
+.lbf-hint {
+  margin-left: auto;
+  font-size: 10px;
+  color: #536878;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  padding-right: 2px;
+  align-self: center;
+}
+
+/* Make sure textarea above toolbar has matching radius */
+textarea[data-lbf-injected="true"] {
+  border-radius: 4px 4px 0 0 !important;
+  border-bottom-color: transparent !important;
+}
