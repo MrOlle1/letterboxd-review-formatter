@@ -20,20 +20,15 @@ Works on **Firefox** and all **Chromium-based browsers** (Chrome, Edge, Brave, O
 
 ## Installation
 
-> There is no store listing yet. Load the extension manually using the steps below.
+### Firefox
+
+ [Letterboxd Review Formatting](https://addons.mozilla.org/addon/letterboxd-review-formatting/)
+
+> There is no store listing for Chrome yet. Load the extension manually using the steps below.
 
 ### Step 1 — Download
 
 Click **Code → Download ZIP** on this page, then unzip the folder.
-
-### Firefox
-
-1. Go to `about:debugging` in the address bar
-2. Click **This Firefox** in the left sidebar
-3. Click **Load Temporary Add-on...**
-4. Open the unzipped folder and select `manifest.json`
-
-> ⚠️ Temporary add-ons are removed when Firefox restarts. For a permanent install you need Firefox Developer Edition or Nightly. You also need to change xpinstall.signatures.required to false in about:config and restart the browser. It's then possible to install addon from file in about:addons.
 
 ### Chrome / Brave / Edge / Opera
 
